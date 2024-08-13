@@ -656,6 +656,7 @@ footer {
     position: -webkit-sticky;
     z-index: 99999;
     top: 20px;
+    cursor: pointer;
 }
 
 @media screen and (max-width:768px) {
