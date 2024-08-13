@@ -30,7 +30,7 @@
     height: 110px;
 }
 
-.nav-btn{
+.nav-btn {
     border-radius: 50px;
     font-size: 15px;
     margin-right: 20px;
@@ -629,32 +629,33 @@ footer {
     height: 90px;
 }
 
-.tgc-wp a{
+.tgc-wp a {
     display: flex;
     text-decoration: none;
     font-weight: bold;
-    color:#08ce43;
+    color: #08ce43;
 }
-.tgc-wp p{
+
+.tgc-wp p {
     position: relative;
-    top:10px;
+    top: 10px;
 }
 
-.phone-gif{
-    height:40px;
-    width:40px;
-    border:1px solid #08ce43;
+.phone-gif {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #08ce43;
 }
 
-.sticky-call{
+.sticky-call {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     position: sticky;
-    position:-webkit-sticky;
-    z-index:99999;
-    top: 20px; 
+    position: -webkit-sticky;
+    z-index: 99999;
+    top: 20px;
 }
 
 @media screen and (max-width:768px) {
@@ -662,10 +663,12 @@ footer {
     .twenty-years {
         height: 60px;
     }
-    .tgc-wp{
-      display: none;
+
+    .tgc-wp {
+        display: none;
 
     }
+
     .tcc {
         flex-direction: column;
         justify-content: center;
@@ -771,7 +774,7 @@ footer {
 
     }
 
-    
+
 
     .spec-snd {
         text-align: center;
@@ -779,11 +782,13 @@ footer {
         position: relative;
         right: 0px;
     }
-.spec-image{
-    align-items: center;
-    display: flex;
-    margin-top:50px;
-}
+
+    .spec-image {
+        align-items: center;
+        display: flex;
+        margin-top: 50px;
+    }
+
     .specimg1 {
         height: 200px;
 
@@ -799,7 +804,7 @@ footer {
     }
 
     .steps-img h2 {
-        font-size: 18px;
+        font-size: 14px;
         margin-top: 30px;
     }
 
