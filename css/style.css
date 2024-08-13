@@ -821,6 +821,7 @@ footer {
     .whychoseus img {
         position: relative;
         top: 0px;
+        height:500px;
     }
     .whychoseus button {
         font-size: 20px;
