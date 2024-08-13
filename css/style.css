@@ -30,7 +30,7 @@
     height: 110px;
 }
 
-.tcc a {
+.nav-btn{
     border-radius: 50px;
     font-size: 15px;
     margin-right: 20px;
@@ -48,9 +48,6 @@
     background-color: #02aa37;
 }
 
-.mob-tcc {
-    display: none;
-}
 
 .twenty-years {
     height: 100px;
@@ -632,16 +629,43 @@ footer {
     height: 90px;
 }
 
+.tgc-wp a{
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    color:#08ce43;
+}
+.tgc-wp p{
+    position: relative;
+    top:10px;
+}
 
+.phone-gif{
+    height:40px;
+    width:40px;
+    border:1px solid black;
+}
 
-
+.sticky-call{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: sticky;
+    position:-webkit-sticky;
+    z-index:99999;
+    top: 20px; 
+}
 
 @media screen and (max-width:768px) {
 
     .twenty-years {
         height: 60px;
     }
-
+    .tgc-wp{
+      display: none;
+        
+    }
     .tcc {
         flex-direction: column;
         justify-content: center;
@@ -649,7 +673,7 @@ footer {
 
     }
 
-    .tcc a {
+    .nav-btn {
         border-radius: 50px;
         font-size: 10px;
         text-align: center;
