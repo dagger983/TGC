@@ -8,14 +8,14 @@
     box-sizing: border-box;
     font-family: "Outfit";
     user-select: none;
-    overflow-wrap: normal;
+   
 }
 
 
 .tcc {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 30px;
     margin-top: 30px;
     height: 100%;
@@ -638,6 +638,7 @@ footer {
 
 @media screen and (max-width:600px) {
 
+
     .twenty-years {
         height: 60px;
     }
@@ -811,18 +812,20 @@ footer {
         font-size: 18px;
         text-align: center;
         letter-spacing: 10px;
-        margin:10px;
+        margin: 10px;
     }
 
     .whychoseus-main p {
-        font-size:14px;
+        font-size: 14px;
         letter-spacing: 5px;
     }
+
     .whychoseus img {
         position: relative;
         top: 0px;
-        height:500px;
+        height: 300px;
     }
+
     .whychoseus button {
         font-size: 20px;
     }
@@ -838,13 +841,16 @@ footer {
     .footer-trd {
         flex-direction: column;
         margin: 10px;
-    }.footer-trd div {
+    }
+
+    .footer-trd div {
         position: relative;
         left: 0px;
-        margin-right:0px;
+        margin-right: 0px;
     }
+
     .footer-main img {
-        height: 90px;
+        height: 60px;
         position: relative;
         right: 0px;
     }
