@@ -636,7 +636,7 @@ footer {
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 
     .twenty-years {
         height: 60px;
@@ -756,6 +756,8 @@ footer {
         right: 0px;
     }
 .spec-image{
+    align-items: center;
+    display: flex;
     margin-top:50px;
 }
     .specimg1 {
