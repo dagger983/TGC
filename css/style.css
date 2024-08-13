@@ -8,14 +8,14 @@
     box-sizing: border-box;
     font-family: "Outfit";
     user-select: none;
-   
+    overflow-wrap: normal;
 }
 
 
 .tcc {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 30px;
     margin-top: 30px;
     height: 100%;
@@ -638,7 +638,6 @@ footer {
 
 @media screen and (max-width:600px) {
 
-
     .twenty-years {
         height: 60px;
     }
@@ -755,15 +754,15 @@ footer {
     }
 
     .specimg1 {
-        position: relative;
-        left: 30px;
+        height: 300px;
+      position: relative;
+      left:90px;
+      margin-top:50px;
     }
 
     .specimg2 {
         height: 300px;
-        margin-top: 0px;
-        position: relative;
-        bottom: 50px;
+        margin-left: 50px;
     }
 
     .keerthysuresh {
@@ -777,6 +776,7 @@ footer {
 
     .steps-img p {
         font-size: 10px;
+        margin-top: 10px;
     }
 
     .steps-img img {
@@ -823,7 +823,7 @@ footer {
     .whychoseus img {
         position: relative;
         top: 0px;
-        height: 300px;
+        height: 400px;
     }
 
     .whychoseus button {
@@ -850,7 +850,7 @@ footer {
     }
 
     .footer-main img {
-        height: 60px;
+        height: 90px;
         position: relative;
         right: 0px;
     }
