@@ -18,7 +18,7 @@
     justify-content: space-evenly;
     padding: 30px;
     margin-top: 30px;
-    height: 100%;
+    height: 70%;
 }
 
 .tcc div {
@@ -643,7 +643,7 @@ footer {
 .phone-gif{
     height:40px;
     width:40px;
-    border:1px solid black;
+    border:1px solid #08ce43;
 }
 
 .sticky-call{
@@ -664,7 +664,7 @@ footer {
     }
     .tgc-wp{
       display: none;
-        
+
     }
     .tcc {
         flex-direction: column;
