@@ -38,3 +38,9 @@ function autoPlay() {
 
 autoPlay();
 document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+
+function toggleAnswer(index) {
+    const answers = document.querySelectorAll('.faq-answer');
+    answers[index].classList.toggle('active');
+}
