@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: 
-Sitemap: https://trichygoldcompany.com/sitemap.xml
 
-
+Sitemap: https://www.trichygoldcompany.com/sitemap.xml
